@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- title -->
+    <title> حجز المواعيد </title>
+    <meta charset="utf-8">
+    <!--3lshan tkon support to internet explorer-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- first mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/scss/framworks/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/scss/framworks/animate.css">
+    <!-- <link rel="shortcut icon" href="img/fave.png" type="image/x-icon"/> -->
+    <link href="css/scss/framworks/flaticon.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/scss/framworks/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="css/scss/framworks/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/scss/framworks/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div class="pre-load">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="-530.4 250.6 318.2 53.3" enable-background="new -466.4 259.6 280.2 47.3"
+            xml:space="preserve">
+            <polyline fill="none" stroke="#4289A3" class="ekg" stroke-width="2" stroke-linecap="square"
+                stroke-miterlimit="10" points="-465.4,281 
+            -436,281 -435.3,280.6 -431.5,275.2 -426.9,281 -418.9,281 -423.9,281 -363.2,281 -355.2,269 -345.2,303 -335.2,263 -325.2,291 
+            -319.2,281 -187.2,281 "></polyline>
+        </svg>
+    </div>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-5 col-xs-12">
+                        <div class="logo">
+                            <img class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="1s"
+                                src="./img/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-7 col-xs-12">
+                        <div class="option">
+                            <div class="login">
+                                <a href="#">Login</a>
+                            </div>
+                            <div class="lan">
+                                <select>
+                                    <option value="1">Ar</option>
+                                    <option value="1">En</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container">
+                <div class="nav">
+                    <ul class="list-inline">
+                        <li class=" wow flipInX" data-wow-duration="2.3s" data-wow-delay="1.1s">
+                            <a href="index.html">الرئيسيه</a>
+                        </li>
+                        <li class=" active wow flipInX" data-wow-duration="2.3s" data-wow-delay="1.2s">
+                            <a href="#">عن المستشفى <i class="fas fa-angle-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="History-hospital.html">تاريخ المستشفى</a></li>
+                                <li class="active"><a href="President's-speech.html"> كلمة الرئيس</a></li>
+                            </ul>
+                        </li>
+                        <li class="wow flipInX" data-wow-duration="2.3s" data-wow-delay="1.3s">
+                            <a href="Help-sections.html">الاقسام <i class="fas fa-angle-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="Medical-programs.htm">البرامج الطبية</a></li>
+                                <li class="active"><a href="Medical-Departments.html"> الاقسام الطبية</a></li>
+                                <li class="active" ><a href="Medical-Departments.html"> الاقسام الطبية</a></li>
+                                <li><a href="Hypnosis-rooms.html">الاقسام التنويم</a></li>
+                            </ul>
+                        </li>
+                        <li class="wow flipInX" data-wow-duration="2.3s" data-wow-delay="1.4s">
+                            <a href="#">المريض <i class="fas fa-angle-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="Patient-doctors.html"> اطباء المريض</a></li>
+                                <li class="active"><a href="Patient-rights.html"> البومات الصور</a></li>
+                            </ul>
+                        </li>
+                        <li class="wow flipInX" data-wow-duration="2.3s" data-wow-delay="1.5s">
+                            <a href="#">الاعلام <i class="fas fa-angle-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="vedios.html">جميع الفديوهات</a></li>
+                                <li class="active"><a href="Patient-rights.html"> البومات الصور</a></li>
+                            </ul>
+                        </li>
+                        <li class="wow flipInX" data-wow-duration="2.3s" data-wow-delay="1.6s">
+                            <a href="connect.html">تواصل معنا </a>
+                        </li>
+                        <li class="wow flipInX" data-wow-duration="2.3s" data-wow-delay="1.7s">
+                            <a href="recruitment.html">التوظيف</a>
+                        </li>
+                        <li class="wow flipInX" data-wow-duration="2.3s" data-wow-delay="1.8s">
+                            <a href="Booking-appointments.html">حجز المواعيد</a>
+                        </li>
+                        <li class="wow flipInX" data-wow-duration="2.3s" data-wow-delay="1.9s" id="open-transparent"><i
+                                class="fas fa-search"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="image-tit-section">
+        <div class="image-tit">
+            <img src="./img/doctor.png" alt="">
+        </div>
+        <div class="tit">
+            <h2> القسم الواحد </h2>
+        </div>
+    </section>
+
+    <section class="category">
+        <div class="tit wow slideInUp" data-wow-delay=".1s">
+            <h2> القسم الواحد</h2>
+            <span>قسمنا والخدمة الخاصة </span>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <div class="category-img">
+                        <img src="img/slider-det.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="category-data">
+                        <h2>القسم المطلوب الحجز فيه</h2>
+                        <p>
+                            أبجد كان هو النص الوهمي القياسي في هذه الصناعة منذ القرن الخامس عشر الميلادي ، لصنع كتاب
+                            نموذج للعينات.
+                            لقد نجا ليس فقط خمسة قرون ،
+                            أبجد كان هو النص الوهمي القياسي في هذه الصناعة منذ القرن الخامس عشر الميلادي ، لصنع كتاب
+                            نموذج للعينات.
+                            لقد نجا ليس فقط خمسة قرون ،
+                            أبجد كان هو النص الوهمي القياسي في هذه الصناعة منذ القرن الخامس عشر الميلادي ، لصنع كتاب
+                            نموذج للعينات.
+                            لقد نجا ليس فقط خمسة قرون ،
+                            أبجد كان هو النص الوهمي القياسي في هذه الصناعة منذ القرن الخامس عشر الميلادي ، لصنع كتاب
+                            نموذج للعينات.
+                            لقد نجا ليس فقط خمسة قرون ،
+                            أبجد كان هو النص الوهمي القياسي في هذه الصناعة منذ القرن الخامس عشر الميلادي ، لصنع كتاب
+                            نموذج للعينات.
+                            لقد نجا ليس فقط خمسة قرون ،
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="doctor doctor-category">
+        <div class="tit wow slideInUp" data-wow-delay=".1s">
+            <h2> طبيبنا</h2>
+            <span>قسمنا والخدمة الخاصة </span>
+        </div>
+        <div class="container">
+            <div id="slider-doctor" class="owl-carousel owl-theme wow slideInUp">
+                <div class="item">
+                    <div class="data-doctop">
+                        <div class="data-doctop-img-social">
+                            <div class="data-doctop-img">
+                                <img src="./img/doctor_1.png" alt="">
+                            </div>
+                            <div class="data-doctop-social">
+                                <div class="all-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data-doctop-details">
+                            <h3><a href="#">د/ سارة على</a></h3>
+                            <ul>
+                                <li>عظام</li>
+                                <li>08.00-18.00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="data-doctop">
+                        <div class="data-doctop-img-social">
+                            <div class="data-doctop-img">
+                                <img src="./img/doctor_2.png" alt="">
+                            </div>
+                            <div class="data-doctop-social">
+                                <div class="all-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data-doctop-details">
+                            <h3><a href="#">د/ السعيد عمر</a></h3>
+                            <ul>
+                                <li>قلب</li>
+                                <li>08.00-18.00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="data-doctop">
+                        <div class="data-doctop-img-social">
+                            <div class="data-doctop-img">
+                                <img src="./img/doctor_3.png" alt="">
+                            </div>
+                            <div class="data-doctop-social">
+                                <div class="all-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data-doctop-details">
+                            <h3><a href="#">د/ محمد ابراهيم</a></h3>
+                            <ul>
+                                <li>جراحة</li>
+                                <li>08.00-18.00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="data-doctop">
+                        <div class="data-doctop-img-social">
+                            <div class="data-doctop-img">
+                                <img src="./img/doctor_4.png" alt="">
+                            </div>
+                            <div class="data-doctop-social">
+                                <div class="all-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data-doctop-details">
+                            <h3><a href="#">د/ ابراهيم زكى</a></h3>
+                            <ul>
+                                <li>اطفال</li>
+                                <li>08.00-18.00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="about-footer">
+                            <div class="logo-footer">
+                                <a href="#">
+                                    <img src="./img/logo.png" alt="">
+                                </a>
+                            </div>
+                            <p>أبجد هوز هو مجرد دمية النص لصناعة الطباعة والتنضيد. وكان أبجد هوز.</p>
+                            <div class="foter-conect">
+                                <div class="foter-conect-info">
+                                    <div class="foter-conect-info-icon">
+                                        <i class="flaticon-placeholder"></i>
+                                    </div>
+                                    <div class="foter-conect-info-data">
+                                        <p>ص.ب. 16122 شارع كولينز فيكتوريا الغربية 8007 أستراليا</p>
+                                    </div>
+                                </div>
+                                <div class="foter-conect-info">
+                                    <div class="foter-conect-info-icon">
+                                        <i class="flaticon-customer-service"></i>
+                                    </div>
+                                    <div class="foter-conect-info-data">
+                                        <p>+880153625892</p>
+                                    </div>
+                                </div>
+                                <div class="foter-conect-info">
+                                    <div class="foter-conect-info-icon">
+                                        <i class="flaticon-mail"></i>
+                                    </div>
+                                    <div class="foter-conect-info-data">
+                                        <p>bdtask@gmail.com </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="icon-header">
+                            <ul class="list-inline">
+                                <li class="wow rollIn"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="wow rollIn"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="wow rollIn"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li class="wow rollIn"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li class="wow rollIn"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li class="wow rollIn"><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="Latests-News-footer">
+                            <h2>احدث الاخبار</h2>
+                            <div class="Latest-News-footer">
+                                <div class="Latest-footer-img">
+                                    <img src="./img/footer-post-1.jpg" alt="">
+                                </div>
+                                <div class="Latest-footer-info">
+                                    <p> <a href="#"> نصائح نمط حياة صحي</a></p>
+                                    <span>Oct 6, 2016</span>
+                                </div>
+                            </div>
+                            <div class="Latest-News-footer">
+                                <div class="Latest-footer-img">
+                                    <img src="./img/footer-post-2.jpg" alt="">
+                                </div>
+                                <div class="Latest-footer-info">
+                                    <p> <a href="#"> نصائح نمط حياة صحي</a></p>
+                                    <span>Oct 6, 2016</span>
+                                </div>
+                            </div>
+                            <div class="Latest-News-footer">
+                                <div class="Latest-footer-img">
+                                    <img src="./img/footer-post-3.jpg" alt="">
+                                </div>
+                                <div class="Latest-footer-info">
+                                    <p> <a href="#"> نصائح نمط حياة صحي</a></p>
+                                    <span>Oct 6, 2016</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="Latests-News-footer Latests-News-footer-twtter">
+                            <h2>أحدث تغريدة</h2>
+                            <div class="Latest-News-footer">
+                                <div class="Latest-footer-img">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="Latest-footer-info">
+                                    <p class="tweet-text">أبجد هوز هو النص <a href="#" target="_blank">@الدمية</a> صناعة
+                                        الطباعة وتنضيد . <a href="#" target="_blank">الحروف</a> الطباعة.</p>
+                                    <a href="#">منذ 7 دقائق</a>
+                                </div>
+                            </div>
+                            <div class="Latest-News-footer">
+                                <div class="Latest-footer-img">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="Latest-footer-info">
+                                    <p class="tweet-text">أبجد هوز هو النص <a href="#" target="_blank">@الدمية</a> صناعة
+                                        الطباعة وتنضيد . <a href="#" target="_blank">الحروف</a> الطباعة.</p>
+                                    <a href="#">منذ 7 دقائق</a>
+                                </div>
+                            </div>
+                            <div class="Latest-News-footer">
+                                <div class="Latest-footer-img">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="Latest-footer-info">
+                                    <p class="tweet-text">أبجد هوز هو النص <a href="#" target="_blank">@الدمية</a> صناعة
+                                        الطباعة وتنضيد . <a href="#" target="_blank">الحروف</a> الطباعة.</p>
+                                    <a href="#">منذ 7 دقائق</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="maps">
+                            <h2>خريطة</h2>
+                            <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".2s" id="map"
+                                style="height: 230px; width: 100%; border-radius: 2px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-buttom">
+            <p>©جميع الحقوق محفوظة <a href="#">لمستشفى الشفاء الطبي</a></p>
+        </div>
+    </footer>
+    <div class="modil">
+        <div class="search-background">
+
+        </div>
+        <form id="search-form" method="post" class="form-top">
+            <input type="search" name="search" class="required" placeholder="كلمة البحث">
+            <button type="submit">بحث</button>
+        </form>
+    </div>
+    <script src="js/framworks/jquery-3.3.1.js"></script>
+    <!--3lshan y3ref al element al 7asa html5 like header,footer,.... in internet explorer-->
+    <script src="js/framworks/fontawesome-all.min.js"></script>
+    <script src="js/framworks/wow.min.js"></script>
+    <script src="js/framworks/owl.carousel.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/framworks/jquery.fancybox.min.js"></script>
+    <!--3lshan al internet explorer yshof @media query -->
+    <script src="js/framworks/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        var map;
+        var marker;
+        var myLatlng = new google.maps.LatLng(24.774265, 46.738586);
+        var geocoder = new google.maps.Geocoder();
+        var infowindow = new google.maps.InfoWindow();
+
+        function initMap() {
+            var mapOptions = {
+                zoom: 10,
+                center: myLatlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+            marker = new google.maps.Marker({
+                map: map,
+                position: myLatlng,
+                draggable: true
+            });
+
+            geocoder.geocode({
+                'latLng': myLatlng
+            }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    if (results[0]) {
+                        $('#latitude,#longitude').show();
+                        $('#address').val(results[0].formatted_address);
+                        $('#resultAddress').val(results[0].formatted_address);
+                        $('#latitude').val(marker.getPosition().lat());
+                        $('#longitude').val(marker.getPosition().lng());
+                        infowindow.setContent(results[0].formatted_address);
+                        infowindow.open(map, marker);
+                    }
+                }
+            });
+
+            google.maps.event.addListener(marker, 'dragend', function () {
+
+                geocoder.geocode({
+                    'latLng': marker.getPosition()
+                }, function (results, status) {
+                    if (status == google.maps.GeocoderStatus.OK) {
+                        if (results[0]) {
+                            $('#address').val(results[0].formatted_address);
+                            $('#resultAddress').val(results[0].formatted_address);
+                            $('#lat').val(marker.getPosition().lat());
+                            $('#long').val(marker.getPosition().lng());
+                            infowindow.setContent(results[0].formatted_address);
+                            infowindow.open(map, marker);
+                        }
+                    }
+                });
+            });
+
+        }
+        google.maps.event.addDomListener(window, 'load', initMap);
+    </script>
+    <script async defer
+        src="maps.googleapis.com/maps/api/js?key=AIzaSyC5Xz9rMq52xAtXTjm6c_cMeppcxWnm0-M&callback=initMap">
+    </script>
+</body>
+
+</html>

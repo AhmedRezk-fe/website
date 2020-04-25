@@ -1,0 +1,586 @@
+@media (min-width:0px)and (max-width:540px){
+ 
+    .headerr .header-top .icon-header {
+    text-align: center;
+}
+    .header-regester {
+    text-align: center;
+    margin-bottom: 20px;
+}
+    .headerr .header-top {
+    padding: 17px 0px 18px 0px;
+    position: relative;
+    z-index: 3;
+}
+    .navigation {
+    position: relative;
+    z-index: 4;
+}
+     header .navigation .nav
+    {
+        background: none;
+        box-shadow: none;
+        overflow: hidden;
+    }
+    header .navigation .nav-click {
+    display: block;
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    background: #fff;
+    right: -22px;
+    text-align: left;
+    padding-left: 15px;
+    border-radius: 39px;
+    line-height: 40px;
+    font-size: 21px;
+    color: #01bee3;
+}
+    .logo-tow,.logo-won {
+    display: none;
+}
+    header .logo {
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 3;
+    height: 306px;
+    margin-bottom: 25px;
+}
+    section.about-me .about-top {
+    top: -38px;
+    width: 100%;
+    height: 40px;
+    background-size: 100%;
+}
+
+header .navigation .nav {
+    width: 94%;
+    margin-top: 48px;
+    right: 10px;
+    opacity: .85;
+    height: inherit;
+    border-radius: 2px 47px 2px 47px;
+    position: absolute;
+    z-index: 9999 !important;
+}
+
+header .navigation .nav li {
+    display: block;
+    text-align: right;
+     visibility: hidden;
+    opacity: 0;
+}
+    section.about-me .about h2 {
+    margin-bottom: 60px;
+}
+    section.about-me .about .info-about-img img {
+    max-width: 100%;
+}
+    section.about-me .about .info-about-img
+    {
+        margin-bottom: 30px 
+    }
+    section.about-me .about-bottom {
+    position: absolute;
+    bottom: -146px;
+    background: none;
+    }
+    section.servis {
+    padding: 50px 0px;
+}
+    section.servis h2 {
+    margin-bottom: 30px;
+    }
+    section.servis:after {
+    content: "";
+    position: absolute;
+    border-top: 0px solid transparent;
+    border-right: 160px solid transparent;
+    border-left: 160px solid transparent;
+    /* bottom: -27px; */
+    width: 100%;
+    right: 0px;
+    height: 0px;
+    z-index: 2;
+    border-bottom: 50px solid #fff;
+    transform: rotate(0deg);
+}
+    .logo-responsiv
+    {
+        display: block
+    }
+    .owl-next {
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    color: #6149c3;
+    font-size: 35px;
+}
+    .owl-prev {
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    color: #6149c3;
+    font-size: 35px;
+}
+    section.serves-web:after {
+    position: absolute;
+    border-bottom: 0px solid transparent;
+    border-right: 90px solid transparent;
+    border-left: 90px solid transparent;
+    border-top: 40px solid #6149c3;
+}
+    section.serves-web .info-servis-web {
+    padding: 20px 0px;
+    }
+    section.serves-web .info-servis-web h2 {
+    margin-bottom: 40px;
+    }
+    section.serves-web .info-servis-web p
+    {
+        width: 100%;
+    }
+    .img-position {
+    position: absolute;
+    left: 36px;
+    top: 52px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+    .img-position img {
+    width: 100%;
+}
+    section.contact-me h2
+    {
+        margin-bottom: 40px;
+    }
+    .info-contact-me {
+    margin-bottom: 25px;
+}
+    section.contact-me:after
+    {
+        display: none;
+    }
+    footer .footer-top {
+    background: url(../img/footer.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 0px;
+    z-index: 99;
+    padding-bottom: 30px;
+    background-position: 10 !important;
+    position: relative;
+    margin-top: 0px;
+}
+    footer .footer-top p
+    {
+        width: 100%;
+    }
+    section.contact-me
+    {
+        padding: 100px 0px 0px;
+    }
+    footer .footer-top h2 {
+    margin-top: 185px;
+    }
+    section.serves-web .info-servis-web form {
+    position: relative;
+    width: 85%;
+    margin: auto;
+}
+    section.servis
+    {
+        overflow: hidden;
+    }
+}
+/*Smart phone and tablets*/
+@media (min-width:541px) and (max-width:767px)
+{
+  .headerr .header-top .icon-header {
+    text-align: center;
+}
+    .header-regester {
+    text-align: center;
+    margin-bottom: 20px;
+}
+    .headerr .header-top {
+    padding: 17px 0px 18px 0px;
+    position: relative;
+    z-index: 3;
+}
+    .navigation {
+    position: relative;
+    z-index: 4;
+}
+    header .navigation .nav-click {
+    display: block;
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    background: #fff;
+    right: -22px;
+    text-align: left;
+    padding-left: 15px;
+    border-radius: 39px;
+    line-height: 40px;
+    font-size: 21px;
+    color: #01bee3;
+}
+    .logo-tow,.logo-won {
+    display: none;
+}
+    header .logo {
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 3;
+    height: 306px;
+    margin-bottom: 25px;
+}
+    section.about-me .about-top {
+    top: -35px;
+    width: 100%;
+    height: 40px;
+    background-size: 100%;
+}
+    .logo-responsiv
+    {
+        display: block
+    }
+    header .navigation .nav
+    {
+        background: none;
+        box-shadow: none;
+        overflow: hidden;
+    }
+
+header .navigation .nav {
+    width: 94%;
+    margin-top: 48px;
+    right: 10px;
+    opacity: .85;
+    height: inherit;
+    border-radius: 2px 47px 2px 47px;
+    position: absolute;
+    z-index: 9999 !important;
+}
+
+header .navigation .nav li {
+    display: block;
+    text-align: right;
+     visibility: hidden;
+    opacity: 0;
+}
+    section.about-me .about h2 {
+    margin-bottom: 60px;
+}
+    section.about-me .about .info-about-img img {
+    max-width: 100%;
+}
+    section.about-me .about .info-about-img
+    {
+        margin-bottom: 30px 
+    }
+    section.about-me .about-bottom {
+    position: absolute;
+    bottom: -146px;
+    background: none;
+    }
+    section.servis {
+    padding: 50px 0px;
+}
+    section.servis h2 {
+    margin-bottom: 30px;
+    }
+    section.servis:after {
+    content: "";
+    position: absolute;
+    border-top: 0px solid transparent;
+    border-right: 160px solid transparent;
+    border-left: 160px solid transparent;
+    /* bottom: -27px; */
+    width: 100%;
+    right: 0px;
+    height: 0px;
+    z-index: 2;
+    border-bottom: 50px solid #fff;
+    transform: rotate(0deg);
+}
+    .owl-next {
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    color: #6149c3;
+    font-size: 35px;
+}
+    .owl-prev {
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    color: #6149c3;
+    font-size: 35px;
+}
+    section.serves-web:after {
+    position: absolute;
+    border-bottom: 0px solid transparent;
+    border-right: 90px solid transparent;
+    border-left: 90px solid transparent;
+    border-top: 40px solid #6149c3;
+}
+    section.serves-web .info-servis-web {
+    padding: 20px 0px;
+    }
+    section.serves-web .info-servis-web h2 {
+    margin-bottom: 40px;
+    }
+    section.serves-web .info-servis-web p
+    {
+        width: 100%;
+    }
+    .img-position {
+    position: absolute;
+    left: 36px;
+    top: 52px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+    .img-position img {
+    width: 100%;
+}
+    section.contact-me h2
+    {
+        margin-bottom: 40px;
+    }
+    .info-contact-me {
+    margin-bottom: 25px;
+}
+    section.contact-me:after
+    {
+        display: none;
+    }
+    footer .footer-top {
+    background: url(../img/footer.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 0px;
+    z-index: 99;
+    padding-bottom: 30px;
+    background-position: 10 !important;
+    position: relative;
+    margin-top: 0px;
+}
+    footer .footer-top p
+    {
+        width: 100%;
+    }
+    section.contact-me
+    {
+        padding: 100px 0px 0px;
+    }
+    footer .footer-top h2 {
+    margin-top: 185px;
+    }
+    section.serves-web .info-servis-web form {
+    position: relative;
+    width: 85%;
+    margin: auto;
+}
+    section.servis
+    {
+        overflow: hidden;
+    }
+    .info-clint{
+        width: 275px;
+    position: relative}
+    section.clints .info-clint .info
+    {
+        width: 270px
+    }
+}
+/*Small Screen*/
+@media (min-width:768px) and (max-width:991px){
+    
+    section.about-me .about-top {
+    background-size: 100%;
+    top: -92px;
+}
+    section.about-me .about-bottom {
+    position: absolute;
+    bottom: -146px;
+    background: url(../img/about-bottom.png) repeat-x;
+    right: 0;
+    width: 100%;
+    height: 146px;
+    background-size: 100%;
+    z-index: 3;
+}
+    section.servis:after {
+    content: "";
+    position: absolute;
+    border-top: 0px solid transparent;
+    border-right: 412px solid transparent;
+    border-left: 412px solid transparent;
+    /* bottom: -27px; */
+    width: 100%;
+    right: -8px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: 76px solid #fff;
+    transform: rotate(0deg);
+}
+    section.serves-web .info-servis-web form {
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+    section.contact-me:after
+    {
+        display:none;
+    }
+    footer .footer-top {
+    background: url(../img/footer.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 140px;
+    z-index: 99;
+    padding-bottom: 40px;
+    background-position: 10 !important;
+    position: relative;
+    margin-top: -110px;
+}
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+    section.about-me .about-top {
+    background-size: 100%;
+    top: -109px;
+}
+    section.about-me .about-bottom {
+    position: absolute;
+    bottom: -146px;
+    background: url(../img/about-bottom.png) repeat-x;
+    right: 0;
+    width: 100%;
+    height: 146px;
+    background-size: 100%;
+    z-index: 3;
+}
+    section.servis:after {
+    content: "";
+    position: absolute;
+    border-top: 0px solid transparent;
+    border-right: 545px solid transparent;
+    border-left: 545px solid transparent;
+    /* bottom: -27px; */
+    width: 100%;
+    right: -8px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: 76px solid #fff;
+    transform: rotate(0deg);
+}
+    section.serves-web .info-servis-web form {
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+    section.contact-me:after
+    {
+        display:none;
+    }
+    footer .footer-top {
+    background: url(../img/footer.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 140px;
+    z-index: 99;
+    padding-bottom: 40px;
+    background-position: 10 !important;
+    position: relative;
+    margin-top: -110px;
+}
+}
+
+/*Large Screen*/
+@media (min-width:1200px) and (max-width:1365px)
+{
+     section.about-me .about-top {
+    background-size: 100%;
+    top: -92px;
+}
+    section.about-me .about-bottom {
+    position: absolute;
+    bottom: -146px;
+    background: url(../img/about-bottom.png) repeat-x;
+    right: 0;
+    width: 100%;
+    height: 146px;
+    background-size: 100%;
+    z-index: 3;
+}
+    section.servis:after {
+    content: "";
+    position: absolute;
+    border-top: 0px solid transparent;
+    border-right: 545px solid transparent;
+    border-left: 545px solid transparent;
+    /* bottom: -27px; */
+    width: 100%;
+    right: -8px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: 76px solid #fff;
+    transform: rotate(0deg);
+}
+    section.serves-web .info-servis-web form {
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+    section.contact-me:after
+    {
+        display:none;
+    }
+    footer .footer-top {
+    background: url(../img/footer.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 140px;
+    z-index: 99;
+    padding-bottom: 40px;
+    background-position: 10 !important;
+    position: relative;
+    margin-top: -110px;
+}
+    section.about-me .about-top {
+    position: absolute;
+    top: -136px;
+    }
+    section.about-me .about-bottom {
+    position: absolute;
+    bottom: -145px;
+    }
+    .owl-next {
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    color: #6149c3;
+    font-size: 35px;
+}
+    .owl-prev {
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    color: #6149c3;
+    font-size: 35px;
+}
+}

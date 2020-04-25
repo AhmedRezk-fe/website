@@ -1,0 +1,392 @@
+@media (min-width:0px)and (max-width:540px){
+	header .header__top .header__top--conects {
+    height:  auto;
+    text-align:  center;
+}
+
+header .header__top .header__top--conects ul.list-inline {
+    padding-right:  0px;
+}
+
+header .header__top .icon-souil {
+    text-align:  center;
+    height: inherit;
+}
+
+header .header__top .icon-souil ul.list-inline {
+    padding-right:  0px;
+}
+
+header .header__m .header__m--logo-header {
+    text-align:  center;
+    width:  100%;
+}
+
+.click-nav.dn {
+    display: block;
+    width: 119px;
+    height: 35px;
+    margin:  auto;
+    text-align:  center;
+    line-height: 35px;
+    margin-bottom:  18px;
+    border-radius: 44px 9px;
+    background: #49776f;
+    color:  #fff;
+}
+
+header .header__m .header__m--list nav ul.list-inline li {
+    display:  block;
+}
+
+header .header__m .header__m--list nav ul.list-inline li a {
+    font-size:  15px;
+}
+
+header .header__m .header__m--list nav {
+    display:  none;
+}
+
+section.home__slider .item__all {
+    height: initial;
+    min-height: 170px;
+}
+
+section.home__slider .item__all .item__img {
+    height: 170px;
+}
+
+section.home__slider .item__all .item__ditails .item__ditails--paragraph {
+    width: 89%;
+}
+
+section.home__slider .item__all .item__ditails {
+    padding-top: 34px;
+}
+
+section.home__slider .item__all .item__ditails .item__ditails--paragraph p {
+    font-size: 13px;
+}
+
+.videos__imag--video {
+    width:  100%;
+    overflow:  hidden;
+}
+
+.videos__imag--video .imag--video-link {
+    width:  100%;
+    overflow:  hidden;
+}
+
+.videos__imag--video .imag--video-link iframe {
+    width:  100% !important;
+}
+
+.imag--video--imags-all {
+    width:  100%;
+}
+
+.imag--video--imags {
+    margin-top: 30px;
+}
+
+.projects .owl-nav.disabled {
+    display:  none;
+}
+
+.bank__accounts--info {
+    width:  100%;
+}
+
+.bank__accounts--info .bank__accounts--info--links {
+    margin-top: 122px;
+}
+
+footer {
+    text-align:  center;
+}
+
+footer .footer {
+    padding-top:  40px;
+    text-align:  center;
+}
+
+footer .footer 
+ .logo__footer {
+    text-align:  center;
+    margin-bottom:  25px;
+}
+
+.footer__link-basic {
+    text-align:  center;
+}
+
+.footer__link-basic h2 {
+    text-align:  center;
+}
+
+.footer__coneects {
+    text-align:  center;
+}
+.bank__accounts--info--links a.inputs-buttons{
+	display: block;
+	margin-bottom: 20px;
+}
+.supmit__form button.inputs-buttons {
+    margin-left: 15px;
+}
+nav {
+    position:  absolute;
+    width: 97%;
+    left:  0;
+    right:  0;
+    margin:  auto;
+    background: #49776f;
+    z-index:  9999;
+    border-radius:  15px 25px;
+    padding: 10px;
+}
+
+header .header__m .header__m--list nav ul.list-inline li a {
+    color:  #fff;
+}
+section.imgs__all .imgs__all--imgs {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 360px;
+    position: relative;
+    margin-bottom: 25px;
+}
+section.imgs__all .imgs__all--imgs .imgs__all--imgs--write{
+    right: 1px;
+}
+}
+/*Smart phone and tablets*/
+@media (min-width:541px) and (max-width:767px){
+	header .header__top .header__top--conects {
+    height:  auto;
+    text-align:  center;
+}
+
+header .header__top .header__top--conects ul.list-inline {
+    padding-right:  0px;
+}
+
+header .header__top .icon-souil {
+    text-align:  center;
+    height: inherit;
+}
+
+header .header__top .icon-souil ul.list-inline {
+    padding-right:  0px;
+}
+
+header .header__m .header__m--logo-header {
+    text-align:  center;
+    width:  100%;
+}
+
+.click-nav.dn {
+    display: block;
+    width: 119px;
+    height: 35px;
+    margin:  auto;
+    text-align:  center;
+    line-height: 35px;
+    margin-bottom:  18px;
+    border-radius: 44px 9px;
+    background: #49776f;
+    color:  #fff;
+}
+
+header .header__m .header__m--list nav ul.list-inline li {
+    display:  block;
+}
+
+header .header__m .header__m--list nav ul.list-inline li a {
+    font-size:  15px;
+}
+
+header .header__m .header__m--list nav {
+    display:  none;
+}
+
+section.home__slider .item__all {
+    height: initial;
+    min-height: 170px;
+}
+
+section.home__slider .item__all .item__img {
+    height: 170px;
+}
+
+section.home__slider .item__all .item__ditails .item__ditails--paragraph {
+    width: 89%;
+}
+
+section.home__slider .item__all .item__ditails {
+    padding-top: 34px;
+}
+
+section.home__slider .item__all .item__ditails .item__ditails--paragraph p {
+    font-size: 13px;
+}
+
+.videos__imag--video {
+    width:  100%;
+    overflow:  hidden;
+}
+
+.videos__imag--video .imag--video-link {
+    width:  100%;
+    overflow:  hidden;
+}
+
+.videos__imag--video .imag--video-link iframe {
+    width:  100% !important;
+}
+
+.imag--video--imags-all {
+    width:  100%;
+}
+
+.imag--video--imags {
+    margin-top: 30px;
+}
+
+.projects .owl-nav.disabled {
+    display:  none;
+}
+
+.bank__accounts--info {
+    width:  100%;
+}
+
+.bank__accounts--info .bank__accounts--info--links {
+    margin-top: 122px;
+}
+
+footer {
+    text-align:  center;
+}
+
+footer .footer {
+    padding-top:  40px;
+    text-align:  center;
+}
+
+footer .footer .logo__footer {
+    text-align:  center;
+    margin-bottom:  25px;
+}
+
+.footer__link-basic {
+    text-align:  center;
+}
+
+.footer__link-basic h2 {
+    text-align:  center;
+}
+
+.footer__coneects {
+    text-align:  center;
+}
+.message__all-all--info {
+    text-align: center;
+    color: #fff;
+    padding: 0px;}
+    nav {
+    position:  absolute;
+    width: 97%;
+    left:  0;
+    right:  0;
+    margin:  auto;
+    background: #49776f;
+    z-index:  9999;
+    border-radius:  15px 25px;
+    padding: 10px;
+}
+
+header .header__m .header__m--list nav ul.list-inline li a {
+    color:  #fff;
+}
+section.imgs__all .imgs__all--imgs {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 360px;
+    position: relative;
+    margin-bottom: 25px;
+}
+section.imgs__all .imgs__all--imgs .imgs__all--imgs--write{
+    right: 1px;
+}
+}
+ 
+@media (min-width:768px) and (max-width:991px){
+	header .header__m .header__m--list nav ul.list-inline li a {
+    padding: 1px 6px;
+    font-size: 14px;
+}
+header .header__top .header__top--conects ul.list-inline li{
+	margin-left: 6px;
+	font-size: 13px;
+}
+.new__news.br5 .new__news--tit h2{
+	font-size: 20px;
+}
+.inputs-buttons {
+    font-size: 12px;
+    padding: 3px 10px;
+}
+.message__all-all--info {
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+.videos__imag--video .imag--video-link {
+    width:  100%;
+    overflow:  hidden;
+    border-radius:  7px;
+}
+
+.videos__imag--video {
+    width:  100%;
+    overflow:  hidden;
+    border-radius: 6px;
+}
+
+.videos__imag--video .imag--video-link iframe {
+    width:  100%;
+}
+
+.imag--video--imags-all {
+    width:  100%;
+}
+
+.footer__coneects h2 {
+    font-size: 13px;
+}
+.projects .owl-nav.disabled{
+	display: none;
+}
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+	header .header__m .header__m--list nav ul.list-inline li a {
+    font-size: 18px;
+    display: block;
+    padding: 5px 9px;}
+    .inputs-buttons {
+    min-width: 140px;
+    padding: 3px 17px}
+.projects .owl-nav.disabled{
+	display: none;
+}
+}
+@media (min-width:1200px) and (max-width:1281px){
+	.projects .owl-nav.disabled{
+	display: none;
+}
+}

@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- title -->
+    <title>ايمن ويب</title>
+    <meta charset="utf-8">
+  <!--3lshan tkon support to internet explorer-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- first mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/scss/framworks/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/scss/framworks/animate.css">
+    <link rel="shortcut icon" href="img/fave.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/scss/framworks/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="css/scss/framworks/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+ </head>
+ <body>
+  <div class="pre-load">
+      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><defs>
+        <style>
+            .pre-load .path {fill:#FFF;fill-opacity: 0.4;fill-rule: evenodd;}#Segments {animation: 2s rot linear infinite;transform-origin: center center;}.top {animation: topa 2s linear infinite;}.left {animation: lefta 2s linear infinite;}.right {animation: righta 2s linear infinite;}@keyframes rot {0% {transform: rotate(0);}79.7145% {transform: rotate(0);}83.7145% {transform: rotate(-10deg);}85.7145% {transform: rotate(0);}88.8574% {transform: rotate(120deg);}90.8574% {transform: rotate(130deg);}92.8574% {transform: rotate(120deg);}100% {transform: rotate(120deg);}}@keyframes topa {0% {transform: translateY(0);}3.1429% {transform: translateY(-10px);}5.1429% {transform: translateY(-8px);}7.1429% {transform: translateY(-10px);}42.8574% {transform: translateY(-10px);}46% {transform: translateY(0);}48% {transform: translateY(-3px);}50% {transform: translateY(0);}100% {transform: translateY(0);}}@keyframes righta {0% {transform: translateX(0) translateY(0);}14.2858% {transform: translateX(0) translateY(0);}17.4287% {transform: translateX(9px) translateY(5px);}19.4287% {transform: translateX(7px) translateY(4px);}21.4287% {transform: translateX(9px) translateY(5px);}57.1429% {transform: translateX(9px) translateY(5px);}60.2858% {transform: translateX(0) translateY(0);}62.2858% {transform: translateX(2px) translateY(1px);}64.2858% {transform: translateX(0) translateY(0);}100% {transform: translateX(0) translateY(0);}}@keyframes lefta {0% {transform: translateX(0) translateY(0);}28.5716% {transform: translateX(0) translateY(0);}31.7145% {transform: translateX(-9px) translateY(5px);}33.7145% {transform: translateX(-7px) translateY(4px);}35.7145% {transform: translateX(-9px) translateY(5px);}71.4287% {transform: translateX(-9px) translateY(5px);}78.5716% {transform: translateX(0) translateY(0);}78.5716% {transform: translateX(-2px) translateY(1px);}78.5716% {transform: translateX(0) translateY(0);}100% {transform: translateX(0) translateY(0);}}</style></defs><g id="Segments"><path class="top" d="M12,19H52L38.132,27H25.937Z"/><path class="right" d="M53.464,20.68l-20,34.641,0.006-16.01,6.1-10.561Z"/><path class="left" d="M31.471,55.317l-20-34.641,13.862,8.01,6.1,10.561Z"/></g></svg>
+  </div>
+  <header>
+      <div class="background-home"></div>
+    <div class="header-nav">      
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="list-cotent--header">
+                <ul>
+                  <li class="wow bounceInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                    <span class="list--header__name">Mansoura - Egypt</span>
+                    <span class="list--header__icon">
+                      <img src="./img/placeholder.png" alt="placeholder">
+                    </span>
+                  </li>
+                  <li class="wow bounceInDown" data-wow-duration="1s" data-wow-delay=".3s">
+                    <span class="list--header__name">asokar912@gmail.com</span>
+                    <span class="list--header__icon">
+                      <img src="./img/mail.png" alt="mail">
+                    </span>
+                  </li>
+                  <li class="wow bounceInDown" data-wow-duration="1s" data-wow-delay=".4s">
+                    <span class="list--header__name">010 - 110 - 715 - 55</span>
+                    <span class="list--header__icon">
+                      <img src="./img/phone-call.png" alt="phone-call">
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- <div class="col-md-4 col-sm-5 col-xs-12">
+              <div class="btn--sin wow slideInLeft" data-wow-duration="1s" data-wow-delay=".7s">
+                <a href="#">تسجيل دخول</a>
+                <a href="#">حساب جديد</a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2 col-sm-4 col-xs-12">
+              <div class="logo-header wow pulse" data-wow-duration="2s" data-wow-delay=".2s">
+                <a href="#">
+                  <img src="./img/logo.png" alt="logo">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-10 col-sm-8 col-xs-12">
+              <div class="header--list__bottom">
+                <div class="click-nav">
+                  <img src="img/fave.png" alt="">
+                </div>
+                <div class="nav">
+                  <ul>
+                    <li class="wow rollIn" data-wow-duration="1s" data-wow-delay=".4s"><a href="#">الرئيسية </a></li>
+                    <li class="wow rollIn" data-wow-duration="1s" data-wow-delay=".5s"><a href="#section-about"> من نحن </a></li>
+                    <li class="wow rollIn" data-wow-duration="1s" data-wow-delay=".6s"><a href="#section-Services">خدماتنا </a></li>
+                    <li class="wow rollIn" data-wow-duration="1s" data-wow-delay=".7s"><a href="#section-works"> كيف نعمل </a></li>
+                    <li class="wow rollIn" data-wow-duration="1s" data-wow-delay=".8s"><a href="our-business.html">اعمالنا</a></li>
+                    <li class="wow rollIn" data-wow-duration="1s" data-wow-delay=".9s"><a href="customer-opinions.html"> أراء العملاء </a></li>
+                    <li class="wow rollIn" data-wow-duration="1s" data-wow-delay="1s"><a href="#section-connectUs"> تواصل معنا</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="header-lests">
+        <div class="container"> 
+          <div class="header-lests--content ">
+            <h1 class="wow zoomIn" data-wow-duration="1s" data-wow-delay="2s">شركة أيمن ويب</h1>
+            <p class="wow zoomInUp" data-wow-duration="1s" data-wow-delay="2.3s">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة،<br> لقد تم توليد هذا النص من مولد النص العربى.</p>
+          </div>
+          <div class="scroll-bottom">
+            <div class="scroll">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-icon-left wow slideInUp" data-wow-duration="1s" data-wow-delay=".1s">
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+  </header><!--header -->
+  <section id="section-about" class="about">
+    <span class="apsOne"></span>
+    <span class="apsTow"></span>
+    <div class="container">
+      <div class="tit wow slideInRight" data-wow-duration="1s" data-wow-delay=".1s">
+        <span>1</span>
+        <h2>من نحن</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-sd-12">
+          <div class="about--write">
+            <div class="div-animat">
+              <img src="img/aboutpr.png" alt="">
+            </div>
+            <p class="wow slideInUp" data-wow-duration="1s" data-wow-delay=".3s">هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع. <a href="#">قراءه المزيد</a></p>
+          </div>
+        </div>
+        <col-md-6 class="col-sm-6 col-xs-12">
+          <div class="imags wow fadeIn" data-wow-duration="1s" data-wow-delay="1.3s">
+            <img src="img/about.png" alt="about">
+          </div>
+        </col-md-6>
+      </div>
+    </div>
+  </section><!-- about -->
+  <section id="section-Services" class="Services">
+    <div class="tit wow slideInUp" data-wow-duration="1s" data-wow-delay=".1s">
+        <span>2</span>
+        <h2> الخدمات التى تقدمها</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="Services--all wow slideInUp" data-wow-duration="1s" data-wow-delay=".2s">
+            <div class="Services--all__img">
+              <img src="img/servis1.png" alt="servis1">
+            </div>
+            <div class="Services--all__info">
+              <h2>تصميم جرافيك</h2>
+              <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص <a href="#">   قراءة المزيد ...</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="Services--all  wow slideInUp" data-wow-duration="1s" data-wow-delay=".3s">
+            <div class="Services--all__img">
+              <img src="img/servis2.png" alt="servis1">
+            </div>
+            <div class="Services--all__info">
+              <h2>تصميم جرافيك</h2>
+              <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص <a href="#">   قراءة المزيد ...</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="Services--all  wow slideInUp" data-wow-duration="1s" data-wow-delay=".4s">
+            <div class="Services--all__img">
+              <img src="img/servis3.png" alt="servis1">
+            </div>
+            <div class="Services--all__info">
+              <h2>تصميم جرافيك</h2>
+              <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص <a href="#">   قراءة المزيد ...</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="Services--all  wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+            <div class="Services--all__img">
+              <img src="img/servis4.png" alt="servis1">
+            </div>
+            <div class="Services--all__info">
+              <h2>تصميم جرافيك</h2>
+              <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص <a href="#">   قراءة المزيد ...</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="Services--all  wow slideInUp" data-wow-duration="1s" data-wow-delay=".6s">
+            <div class="Services--all__img">
+              <img src="img/servis5.png" alt="servis1">
+            </div>
+            <div class="Services--all__info">
+              <h2>تصميم جرافيك</h2>
+              <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص <a href="#">   قراءة المزيد ...</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="Services--all  wow slideInUp" data-wow-duration="1s" data-wow-delay=".7s">
+            <div class="Services--all__img">
+              <img src="img/servis6.png" alt="servis1">
+            </div>
+            <div class="Services--all__info">
+              <h2>تصميم جرافيك</h2>
+              <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص <a href="#">   قراءة المزيد ...</a></p>
+            </div>
+          </div>
+        </div>       
+      </div>
+    </div>
+  </section><!-- servic -->
+  <section id="section-works" class="How-it-works">
+    <div class="tit">
+        <span>3</span>
+        <h2>كيف يعمل</h2>
+    </div>
+      <div class="container">
+        <div class="work--items  wow slideInUp" data-wow-duration="1s" data-wow-delay=".2s">
+          <div class="work--item work--item-img">
+            <img src="img/work1.png" alt="">
+          </div>
+          <div class="work--item work--item-tit">
+            <span class="work-1">01</span>
+            <h2>الأفكار</h2>
+          </div>
+          <div class="work--item work--item-paragtaph">
+            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص هذا النص هو مثال لنص .</p>
+          </div>
+        </div>
+        <div class="work--items wow slideInUp" data-wow-duration="1s" data-wow-delay=".4s">
+          <div class="work--item work--item-img">
+            <img src="img/work2.png" alt="">
+          </div>
+          <div class="work--item work--item-tit">
+            <span class="work-2">02</span>
+            <h2>التصميم</h2>
+          </div>
+          <div class="work--item work--item-paragtaph">
+            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص هذا النص هو مثال لنص .</p>
+          </div>
+        </div>
+        <div class="work--items wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+          <div class="work--item work--item-img">
+            <img src="img/work3.png" alt="">
+          </div>
+          <div class="work--item work--item-tit">
+            <span class="work-3">03</span>
+            <h2>التطوير</h2>
+          </div>
+          <div class="work--item work--item-paragtaph">
+            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص هذا النص هو مثال لنص .</p>
+          </div>
+        </div>
+        <div class="work--items wow slideInUp" data-wow-duration="1s" data-wow-delay=".6s">
+          <div class="work--item work--item-img">
+            <img src="img/work4.png" alt="">
+          </div>
+          <div class="work--item work--item-tit">
+            <span class="work-3">04</span>
+            <h2>التسليم</h2>
+          </div>
+          <div class="work--item work--item-paragtaph">
+            <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص هذا النص هو مثال لنص .</p>
+          </div>
+        </div>
+      </div>
+  </section><!--how it work-->
+  <section id="section-business" class="our-business">
+    <div class="tit wow slideInUp" data-wow-duration="1s" data-wow-delay=".1s">
+      <span>4</span>
+      <h2>اعمالنا</h2>
+    </div>
+    <div class="container">
+      <div class="taps--slider">
+        <ul class="nav nav-tabs wow slideInUp" data-wow-duration="1s" data-wow-delay=".4s" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="alls" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">الكل</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="webs" data-toggle="tab" href="#web" role="tab" aria-controls="web" aria-selected="false">المواقع</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="app-phones" data-toggle="tab" href="#app-phone" role="tab" aria-controls="app-phone" aria-selected="false">تطبيقات الموبايل</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="trade-marks" data-toggle="tab" href="#trade-mark" role="tab" aria-controls="trade-mark" aria-selected="false">العلامه التجاريه</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="Others" data-toggle="tab" href="#Other" role="tab" aria-controls="Other" aria-selected="false">اخري</a>
+          </li>
+        </ul>
+        <div class="tab-content wow zoomInUp" data-wow-duration="1s" data-wow-delay=".6s" id="myTabContent">
+          <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="home-tab">
+            <div class="slider">
+              <div class="owl-carousel owl-theme slider-tabs">
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider1.png" alt="">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider2.png" alt="">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider1.png" alt="">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider2.png" alt="">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="slider">
+              <div class="owl-carousel owl-theme slider-tabs" >
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="app-phone" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="slider">
+              <div class="owl-carousel owl-theme slider-tabs">
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="trade-mark" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="slider">
+              <div class="owl-carousel owl-theme slider-tabs">
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="Other" role="tabpanel" aria-labelledby="contact-tab">
+            <div class="slider">
+              <div class="owl-carousel owl-theme slider-tabs">
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slider-img">
+                    <img src="./img/slider.png" alt="">
+                  </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- our-business -->
+  <section id="section-opinions" class="customer-opinions">
+    <div class="customer-opinions-div">
+        <div class="tit wow slideInUp" data-wow-duration="1s" data-wow-delay=".1s">
+            <span>5</span>
+            <h2>اراء العملاء</h2>
+        </div>
+        <div class="container">
+          <div class="customer-opinions-slider">
+              <div class="owl-carousel owl-theme slider-customer">
+                <div class="item">
+                  <div class="slider-customer-all">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-5 col-xs-12 wow slideInLeft" data-wow-duration="1s" data-wow-delay=".8s">
+                          <div class="slider-customer-item slider-customer-all-img">
+                              <div class="slider-customer-all-img--imgs">
+                                <img src="./img/profile.png" alt="">
+                              </div>
+                              <div class="profile-write">
+                                <h2>Ahmed Rizk</h2>
+                                <p>Mansoura , Egypt</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-9 col-sm-7 col-xs-12 wow slideInRight" data-wow-duration="1s" data-wow-delay=".8s">
+                          <div class=" slider-customer-item slider-customer-all-info">
+                              <span>
+                                <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص  هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص .</p>
+                              </span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slider-customer-all">
+                    <div class="row">
+                      <div class="col-md-9 col-sm-7 col-xs-12">
+                          <div class=" slider-customer-item slider-customer-all-info">
+                              <span>
+                                <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص  هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص .</p>
+                              </span>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-5 col-xs-12">
+                          <div class="slider-customer-item slider-customer-all-img">
+                              <div class="slider-customer-all-img--imgs">
+                                <img src="./img/profile.png" alt="profile">
+                              </div>
+                              <div class="profile-write">
+                                <h2>Ahmed Rizk</h2>
+                                <p>Mansoura , Egypt</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slider-customer-all">
+                    <div class="row">
+                      <div class="col-md-9 col-sm-7 col-xs-12">
+                          <div class=" slider-customer-item slider-customer-all-info">
+                              <span>
+                                <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص  هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص .</p>
+                              </span>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-5 col-xs-12">
+                          <div class="slider-customer-item slider-customer-all-img">
+                              <div class="slider-customer-all-img--imgs">
+                                <img src="./img/profile.png" alt="profile">
+                              </div>
+                              <div class="profile-write">
+                                <h2>Ahmed Rizk</h2>
+                                <p>Mansoura , Egypt</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+  </section><!-- customer-opinions -->
+  <div id="section-connectUs" class="section connectUs">
+    <div class="tit wow slideInUp" data-wow-duration="1s" data-wow-delay=".1s">
+      <span>6</span>
+      <h2>تواصل معنا</h2>
+    </div>
+    <div class="container">
+      <div class="maps">
+          <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".2s" id="map" style="height: 530px; width: 100%; border-radius: 10px;"></div>
+          <div class="conect-position wow slideInRight   data-wow-delay=".3s">
+            <div class="conect-position-logo">
+              <img src="img/logo-conect.png" alt="">
+            </div>
+            <div class="conect-position-content">
+              <form action="">
+                <div class="form-group">
+                  <input type="text" placeholder="الاسم">
+                </div>
+                <div class="form-group">
+                  <input type="text" placeholder="البريد الالكترونى">
+                </div>
+                <div class="form-group">
+                  <textarea cols="30" rows="10" placeholder="الرساله" ></textarea>
+                </div>
+                <div class="form-group btn-send">
+                  <button type="button">ارسال</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <span class="span-phlip phlip-one"></span>
+          <span class="span-phlip phlip-tow"></span>
+      </div>
+      <div class="section-connectUs--contacts wow flipInX" data-wow-duration="1.5s" data-wow-delay=".5s">
+          <span class="section-connectUs-phlip section-phlip-one"></span>
+          <span class="section-connectUs-phlip section-phlip-tow"></span>
+        <div class="title">
+          <h2>معلومات التواصل</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-5 col-sm-5 col-xs-12">
+            <div class="ion-icons-all wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">
+              <div class="ion--icons__icon">
+                  <img src="./img/placeholder-2.png" alt="placeholder">
+              </div>
+              <div class="ion--icons__info ">
+                <h3>العنوان</h3>
+                <p>طريق التخصصي مقابل الطيار بجانب البنك الاهلي</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12">
+            <div class="ion-icons-all wow zoomIn" data-wow-duration="1s" data-wow-delay="1.2s">
+              <div class="ion--icons__icon">
+                  <img src="./img/mail-2.png" alt="placeholder">
+              </div>
+              <div class="ion--icons__info">
+                <h3>البريد الالكترونى</h3>
+                <p> seaes@aait.sa </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="ion-icons-all wow zoomIn" data-wow-duration="1s" data-wow-delay="1.3s">
+              <div class="ion--icons__icon">
+                  <img src="./img/phone-call-2.png" alt="placeholder">
+              </div>
+              <div class="ion--icons__info">
+                <h3>الجوال</h3>
+                <p>920005929-0555100935</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- section connectUs -->
+  <footer class="footer wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+      <div class="background-home"></div>
+    <div class="footer-logo">
+      <img src="./img/logo-conect.png" alt="">
+    </div>
+    <div class="icon-socuals">
+      <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+    </div>
+    <div class="copy-write">
+      <h3>جميع الحقوق محفوظه لشركه : <a href="#">ايمن ويب</a></h3>
+    </div>
+  </footer>
+    <script src="js/framworks/jquery-3.3.1.js"></script>
+    <!--3lshan y3ref al element al 7asa html5 like header,footer,.... in internet explorer-->
+    <script src="js/framworks/fontawesome-all.min.js"></script>
+    <script src="js/framworks/wow.min.js"></script>
+    <script src="js/framworks/owl.carousel.min.js"></script>
+    <script>new WOW().init();</script>
+    <!--3lshan al internet explorer yshof @media query -->
+    <script src="js/framworks/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+          <script>
+
+              var map;
+              var marker;
+              var myLatlng = new google.maps.LatLng(24.774265, 46.738586);
+              var geocoder = new google.maps.Geocoder();
+              var infowindow = new google.maps.InfoWindow();
+              
+              function initMap(){
+              var mapOptions = {
+              zoom: 10,
+              center: myLatlng,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+              };
+              
+              map = new google.maps.Map(document.getElementById("map"), mapOptions);
+              
+              marker = new google.maps.Marker({
+              map: map,
+              position: myLatlng,
+              draggable: true
+              });
+              
+              geocoder.geocode({'latLng': myLatlng }, function(results, status) {
+              if (status == google.maps.GeocoderStatus.OK) {
+              if (results[0]) {
+              $('#latitude,#longitude').show();
+              $('#address').val(results[0].formatted_address);
+              $('#resultAddress').val(results[0].formatted_address);
+              $('#latitude').val(marker.getPosition().lat());
+              $('#longitude').val(marker.getPosition().lng());
+              infowindow.setContent(results[0].formatted_address);
+              infowindow.open(map, marker);
+              }
+              }
+              });
+              
+              google.maps.event.addListener(marker, 'dragend', function() {
+              
+              geocoder.geocode({'latLng': marker.getPosition()}, function(results, status) {
+              if (status == google.maps.GeocoderStatus.OK) {
+              if (results[0]) {
+              $('#address').val(results[0].formatted_address);
+              $('#resultAddress').val(results[0].formatted_address);
+              $('#lat').val(marker.getPosition().lat());
+              $('#long').val(marker.getPosition().lng());
+              infowindow.setContent(results[0].formatted_address);
+              infowindow.open(map, marker);
+              }
+              }
+              });
+              });
+              
+              }
+              google.maps.event.addDomListener(window, 'load', initMap);
+              
+          </script>
+    <script async defer src="maps.googleapis.com/maps/api/js?key=AIzaSyC5Xz9rMq52xAtXTjm6c_cMeppcxWnm0-M&callback=initMap">
+    </script>
+ </body>
+</html>
