@@ -13,6 +13,9 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.works-section .portfolio figure figcaption{
+    display: none;
+}
 *:focus {
     outline: none;
 }
@@ -3265,6 +3268,7 @@ screen and (max-height: 300px) {
 }
 
 @media screen and (max-width: 755px) {
+
     body {
         overflow-x: auto;
         overflow-y: auto;
@@ -3453,3 +3457,39 @@ screen and (max-height: 300px) {
     top: 11px;
     border-radius: 5px 10px 7px 14px;
 }
+
+
+@media (max-width: 575.98px) { 
+    .about-card {
+        height: 550px;
+    }
+    
+    .face2.card-face {
+        /* height: 500px; */
+    }
+    
+    .face1.card-face {
+        height: 550px;
+    }
+    
+    .about-section .aboutInfo-contanier .about-cover {
+        height: 550px;
+    }
+ }
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    .about-card {
+        height: 550px;
+    }
+    
+    .face2.card-face {
+        /* height: 500px; */
+    }
+    
+    .face1.card-face {
+        height: 550px;
+    }
+    
+    .about-section .aboutInfo-contanier .about-cover {
+        height: 550px;
+    }
+  }
