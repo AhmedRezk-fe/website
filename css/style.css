@@ -206,6 +206,7 @@ a.hs-totop-link {
     width: 140px;
     /* height: 140px; */
     padding: 5px;
+    height: 100%;
     opacity: 0.5;
 }
 
